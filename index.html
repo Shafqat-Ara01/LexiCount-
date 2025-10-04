@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LexiCount </title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo"><h1>Character Counter</h1></div>
+      <button id="mode"><i class="fa-regular fa-sun"></i></button>
+    </header>
+    <main class="main">
+      <h1 id="intro">Analyze your Text in real-time.</h1>
+      <textarea
+        name="Counter"
+        class="textarea"
+        placeholder="Start typing here....(Or paste Your text.)"
+        rows="15" autofocus
+      ></textarea>
+      <div class="counters">
+        <div class="counter">
+          <div class="text-counter">0</div>
+          <div class="counting">Total Characters</div>
+        </div>
+
+        <div class="counter">
+          <div class="word-counter">0</div>
+          <div class="counting">Word Count</div>
+        </div>
+
+        <div class="counter">
+          <div class="sentence-counter">0</div>
+          <div class="counting">Sentence Count</div>
+        </div>
+        
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
