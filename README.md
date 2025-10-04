@@ -23,8 +23,3 @@ It allows users to instantly track the number of **characters**, **words**, and 
 ## 🖥️ Live Demo
 [View Project](https://lexicount-by-shafqatara.netlify.app/)
 
----
-
-
-   git clone https://github.com/yourusername/character-counter.git
-
